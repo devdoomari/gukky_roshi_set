@@ -1,0 +1,20 @@
+{
+  "name": "gukky_roshi_set",
+  "version": "0.0.1",
+  "description": "Gukky's Roshi set implementation (see https://github.com/soundcloud/roshi)",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha --compilers js:babel/register --recursive tests --timeout 100000",
+    "watch-test": "$(npm bin)/mocha --compilers js:babel/register --recursive --watch test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.1.2",
+    "babel-eslint": "^4.1.4",
+    "chai": "^3.4.0",
+    "eslint": "^1.8.0",
+    "eslint-config-airbnb": "^0.1.0",
+    "mocha": "^2.3.3"
+  }
+}
